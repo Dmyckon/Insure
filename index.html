@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insure Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+<body>
+    <nav class="h-[10vh] bg-[ hsl(0, 0%, 98%)] flex justify-between p-5 md:flex">
+        <hi class="md:ml-14"><b>INSURE</b></hi>
+        <div class="flex hidden md:flex text-sm text-gray-600 mr-14">
+          <p>HOW WE WORK</p>
+          <p class="ps-5">BLOG</p>
+          <p class="ps-5">ACCOUNT</p>
+          <p class="ps-5">VIEW PLANS</p>
+        </div>
+        <span class="md:hidden">&#9776;</span>
+    </nav>
+        <!-- <section class="text-center h-96 bg-gray-800 text-white bg-no-repeat bg-left-bottom font-sans p-5"
+        style="background-image: url(./bg-pattern-mobile-nav.svg);">
+            <div class="h-[5vh]">HOW WE WORK</div>
+            <div class="h-[5vh]">BLOG</div>
+            <div class="h-[5vh]">ACCOUNT</div>
+            <div class="h-[5vh]">VIEW PLANS</div>
+        </section> -->
+    <section class="bg-[#2d2640] h-[140vh] bg-no-repeat text-white text-center md:h-[70vh] w-auto">
+      <div class="hidden md:flex w-36 h-px bg-gray-400 absolute mt-14 ml-20"></div>
+    <img src="./image-intro-mobile.jpg" class="md:absolute right-20 top-36">
+    <span class="md:absolute left-20 w-[400px] text-sm">
+    <h1 class="text-4xl font-serif mt-24 text-center md:text-left">Humanizing your insurance.</h1>
+    <P class="font-serif p-8 md:ps-1 text-gray-300 text-left pt-3 p-5">Get your life insurance coverage easier and faster. We blend our expertise 
+      and technology to help you find the plan that’s right for you. Ensure you 
+      and your loved ones are protected.</P>
+      <h1 class="text-sm font-serif border-2 border-solid w-28 p-2 ml-32 mt-5 md:ml-1 pt-2">VIEW PLANS</h1>
+    </span>
+    <img src="./bg-pattern-intro-left-mobile.svg" class="absolute top-[521px] md:hidden">
+    <img src="./bg-pattern-intro-right-desktop.svg" class="hidden md:flex absolute h-[60vh] right-0">
+    </section>
+
+    <section class="text-center p-10 pt-28 bg-no-repeat bg-right-top md:text-left">
+      <img src="./bg-pattern-intro-right-mobile.svg" class="absolute top-[870px] end-0 md:hidden">
+      <img src="./bg-pattern-intro-left-desktop.svg" class="hidden md:block absolute h-[60vh] left-0 top-96">
+    <div class="ml-1 md: ml-1">
+      <div class="w-36 bg-black h-px ml-20 md:ml-5"></div>
+      <h1 class="text-4xl w-72 pt-7 font-bold font-serif ml-4 md:ml-5">We’re different</h1>
+    </div>
+    <div class="md:flex mb-14 ml-14 justify-between">
+      <div>
+        <img src="./icon-snappy-process.svg" class="ml-16 pt-16 md:ml-1">
+        <h1 class="text-xl font-bold font-serif pt-7 mr-10">Snappy Process</h1>
+        <p class="text-gray-500 pt-3 text-sm mr-10">Our application process can be completed in minutes, not hours. Don’t get 
+          stuck filling in tedious forms.</p>
+      </div>
+      <div>
+        <img src="./icon-affordable-prices.svg" class="ml-16 pt-16 md:ml-1">
+        <h1 class="text-xl font-bold font-serif pt-7 mr-10">Affordable Prices</h1>
+        <p class="text-gray-500 pt-3 text-sm mr-10">We don’t want you worrying about high monthly costs. Our prices may be low, 
+          but we still offer the best coverage possible.</p>
+      </div>
+      <div>
+        <img src="./icon-people-first.svg" class="ml-16 pt-16 md:ml-1">
+        <h1 class="text-xl font-bold font-serif pt-7 mr-10">People First</h1>
+        <p class="text-gray-500 pt-3 text-sm mr-10">Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+          sure you’re covered when you need it.</p>
+        </div>
+    </div>
+    </section>
+    <div class="bg-[#2d2640] h-[350px]  w-[333px] text-center text-white content-center ms-5 md:flex md:h-[38vh] md:w-[83vw] md:ms-24 xl:h-[43vh]">
+      <img src="./bg-pattern-how-we-work-mobile.svg" class="absolute left-44 top-[2220px] md:hidden">
+      <img src="./bg-pattern-how-we-work-desktop.svg" class="hidden md:flex absolute md:right-[105px]">
+      <h1 class="font-bold text-4xl md:text-left md:w-[40vw] md:ms-10 md:mt-24 md:mr-10">Find out more about how we work</h1>
+      <div class="border-solid border-2 m-8 grid p-2 md:h-[7vh] md:ms-44 md:mt-24">HOW WE WORK</div>
+    </div>
+  <section class="h-[30vh] text-center mt-24 bg-no-repeat bg-gray-100">
+    <div class="justify-center pt-14 md:flex justify-between ps-24 pe-24">
+     <img src="./bg-pattern-footer-mobile.svg" class="absolute top-[2658px] left-[0px] md:hidden">
+     <img src="./bg-pattern-footer-desktop.svg" class="md:absolute md:left-0 md:top-[1435px] xl:top-[1370px]">
+      <h1 class="font-bold font-mono text-3xl">INSURE</h1>
+      <span class="flex justify-center">
+      <img src="./icon-facebook.svg" class="p-2 flex-row md:hover:bg-[#2d2640]">
+      <img src="./icon-twitter.svg" class="p-2 flex-row md:hover:bg-[#2d2640]">
+      <img src="./icon-pinterest.svg" class="p-2 flex-row md:hover:bg-[#2d2640]">
+      <img src="./icon-instagram.svg" class="p-2 flex-row md:hover:bg-[#2d2640]">
+      </span>
+    </div>
+    <div class="w-72 h-px ml-10 mt-10 bg-gray-400 md:w-[140vh]"></div>
+  <span class="md:flex justify-between ps-24 pe-24 bg-gray-100">
+    <div class="pt-14 text-center bg-gray-100">
+      <h1 class="text-gray-400 text-sm pb-8 font-bold">OUR COMPANY</h1>
+      <P class="text-sm pb-2 font-bold">HOW WE WORK</P>
+      <P class="text-sm pb-2 font-bold">WHY INSURE?</P>
+      <P class="text-sm pb-2 font-bold">CHECK PRICE</P>
+      <P class="text-sm pb-2 font-bold">REVIEWS</P>
+    </div>
+    <div class="pt-14 text-center bg-gray-100">
+      <h1 class="text-gray-400 text-sm pb-8 font-bold">HELP ME</h1>
+      <P class="text-sm pb-2 font-bold">FAQ</P>
+      <P class="text-sm pb-2 font-bold">TERMS OF USE</P>
+      <P class="text-sm pb-2 font-bold">PRIVACY POLICY</P>
+      <P class="text-sm pb-2 font-bold">COOKIES</P>
+    </div>
+    <div class="pt-14 text-center bg-gray-100">
+      <h1 class="text-gray-400 text-sm pb-8 font-bold">CONTACT</h1>
+      <P class="text-sm pb-2 font-bold">SALES</P>
+      <P class="text-sm pb-2 font-bold">SUPPORT</P>
+      <P class="text-sm pb-2 font-bold">LIVE CHAT</P>
+    </div>
+    <div class="pt-14 text-center pb-20 bg-gray-100">
+      <h1 class="text-gray-400 text-sm pb-8 font-bold">OTHERS</h1>
+      <P class="text-sm pb-2 font-bold">CAREERS</P>
+      <P class="text-sm pb-2 font-bold">PRESS</P>
+      <P class="text-sm pb-2 font-bold">LICENSES</P>
+    </div>
+  </span>
+  </section>
+</body>
+</html>
